@@ -57,6 +57,14 @@ node default {
   include git
   include hub
   include nginx
+  include sublime_text
+  include github_for_mac
+  include sequel_pro
+  include virtualbox
+  include vagrant
+  include packer
+  include maven
+  include dropbox
 
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
