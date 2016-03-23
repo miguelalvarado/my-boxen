@@ -62,8 +62,6 @@ github "xquartz",     "1.2.1"
 # https://github.com/boxen.
 
 # Core Development
-github "sublime_text"      #
-github "github_for_mac"
 
 # Web Development
 github "sequel_pro"

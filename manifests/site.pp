@@ -57,8 +57,6 @@ node default {
   include git
   include hub
   include nginx
-  include sublime_text
-  include github_for_mac
   include sequel_pro
   include virtualbox
   include vagrant
