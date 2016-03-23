@@ -60,8 +60,19 @@ github "xquartz",     "1.2.1"
 
 # Optional/custom modules. There are tons available at
 # https://github.com/boxen.
-# github "elasticsearch", "2.8.0"
-# github "mysql",         "2.0.1"
-# github "postgresql",  "4.0.1"
-# github "redis",       "3.1.0"
-# github "sysctl",      "1.0.1"
+
+# Core Development
+github "sublime_text"      #
+github "github_for_mac"
+
+# Web Development
+github "sequel_pro"
+
+# Virtualization
+github "virtualbox"        # https://github.com/boxen/puppet-virtualbox
+github "vagrant"           # https://github.com/boxen/puppet-vagrant
+github "packer"            # https://github.com/boxen/puppet-packer
+
+# Maven
+github "maven", "1.0.0", :repo        => "steinim/puppet-maven"
+github "dropbox", "1.0.0"
