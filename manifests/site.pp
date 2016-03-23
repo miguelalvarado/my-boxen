@@ -58,15 +58,6 @@ node default {
   include hub
   include nginx
 
-  include virtualbox
-  include vagrant
-  include dropbox
-  include maven
-  include sublime_text
-  include packer
-  include dropbox
-  include sequel_pro
-
   # fail if FDE is not enabled
   if $::root_encrypted == 'no' {
     fail('Please enable full disk encryption and try again')
