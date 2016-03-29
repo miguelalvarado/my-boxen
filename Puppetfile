@@ -64,6 +64,7 @@ github "xquartz",     "1.2.1"
 # Core Development
 
 # Web Development
+github "java"
 github "wget"
 github "sequel_pro"
 
