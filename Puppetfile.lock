@@ -34,11 +34,6 @@ GITHUBTARBALL
     git (2.7.92)
 
 GITHUBTARBALL
-  remote: boxen/puppet-github_for_mac
-  specs:
-    github_for_mac (1.0.3)
-
-GITHUBTARBALL
   remote: boxen/puppet-go
   specs:
     go (2.1.0)
@@ -52,6 +47,11 @@ GITHUBTARBALL
   remote: boxen/puppet-hub
   specs:
     hub (1.4.1)
+
+GITHUBTARBALL
+  remote: boxen/puppet-java
+  specs:
+    java (1.8.4)
 
 GITHUBTARBALL
   remote: boxen/puppet-nginx
@@ -99,11 +99,6 @@ GITHUBTARBALL
     sequel_pro (1.0.1)
 
 GITHUBTARBALL
-  remote: boxen/puppet-sublime_text
-  specs:
-    sublime_text (1.1.1)
-
-GITHUBTARBALL
   remote: boxen/puppet-sudo
   specs:
     sudo (1.0.0)
@@ -116,12 +111,22 @@ GITHUBTARBALL
 GITHUBTARBALL
   remote: boxen/puppet-virtualbox
   specs:
-    virtualbox (1.0.9)
+    virtualbox (1.0.13)
+
+GITHUBTARBALL
+  remote: boxen/puppet-wget
+  specs:
+    wget (1.0.1)
 
 GITHUBTARBALL
   remote: boxen/puppet-xquartz
   specs:
     xquartz (1.2.1)
+
+GITHUBTARBALL
+  remote: miguelalvarado/puppet-maven
+  specs:
+    maven (1.0.0)
 
 GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
@@ -138,11 +143,6 @@ GITHUBTARBALL
   specs:
     module_data (0.0.4)
 
-GITHUBTARBALL
-  remote: steinim/puppet-maven
-  specs:
-    maven (1.0.0)
-
 DEPENDENCIES
   boxen (= 3.11.1)
   brewcask (= 0.0.6)
@@ -151,11 +151,11 @@ DEPENDENCIES
   foreman (= 1.2.0)
   gcc (= 3.0.2)
   git (= 2.7.92)
-  github_for_mac (>= 0)
   go (= 2.1.0)
   homebrew (= 1.13.0)
   hub (= 1.4.1)
   inifile (= 1.4.1)
+  java (>= 0)
   maven (= 1.0.0)
   module_data (= 0.0.4)
   nginx (= 1.6.0)
@@ -168,9 +168,9 @@ DEPENDENCIES
   ruby (= 8.5.4)
   sequel_pro (>= 0)
   stdlib (= 4.7.0)
-  sublime_text (>= 0)
   sudo (= 1.0.0)
   vagrant (>= 0)
-  virtualbox (>= 0)
+  virtualbox (= 1.0.13)
+  wget (>= 0)
   xquartz (= 1.2.1)
 
