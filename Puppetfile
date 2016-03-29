@@ -67,7 +67,7 @@ github "xquartz",     "1.2.1"
 github "sequel_pro"
 
 # Virtualization
-github "virtualbox"        # https://github.com/boxen/puppet-virtualbox
+github "virtualbox", "1.0.13"        # https://github.com/boxen/puppet-virtualbox
 github "vagrant"           # https://github.com/boxen/puppet-vagrant
 github "packer"            # https://github.com/boxen/puppet-packer
 
