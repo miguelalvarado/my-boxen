@@ -74,5 +74,5 @@ github "vagrant"           # https://github.com/boxen/puppet-vagrant
 github "packer"            # https://github.com/boxen/puppet-packer
 
 # Maven
-#github "maven", "1.0.0", :repo        => "miguelalvarado/puppet-maven"
+github "maven", "1.0.0", :repo        => "miguelalvarado/puppet-maven"
 github "dropbox", "1.0.0"

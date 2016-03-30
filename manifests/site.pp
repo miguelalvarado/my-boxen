@@ -63,7 +63,7 @@ node default {
   include virtualbox
   include vagrant
   include packer
-  #include maven
+  include maven
   include dropbox
 
   # fail if FDE is not enabled
