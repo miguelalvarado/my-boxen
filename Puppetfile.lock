@@ -124,6 +124,11 @@ GITHUBTARBALL
     xquartz (1.2.1)
 
 GITHUBTARBALL
+  remote: miguelalvarado/puppet-maven
+  specs:
+    maven (1.0.0)
+
+GITHUBTARBALL
   remote: puppetlabs/puppetlabs-inifile
   specs:
     inifile (1.4.1)
@@ -151,6 +156,7 @@ DEPENDENCIES
   hub (= 1.4.1)
   inifile (= 1.4.1)
   java (>= 0)
+  maven (= 1.0.0)
   module_data (= 0.0.4)
   nginx (= 1.6.0)
   nodejs (= 5.0.0)
